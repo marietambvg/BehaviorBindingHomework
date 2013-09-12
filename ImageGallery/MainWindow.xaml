@@ -1,0 +1,39 @@
+﻿<Window x:Class="ImageGallery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vms="clr-namespace:ImageGallery.ViewModels"
+        Title="MainWindow" Height="350" Width="525">
+
+
+    <Window.DataContext>
+        <vms:ImageAlbumGalaryViewModel/>
+    </Window.DataContext>
+
+    <StackPanel>
+
+        <TabControl ItemsSource="{Binding Albums}" SelectedIndex="0" DisplayMemberPath="Name">
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+
+                    <ListView ItemsSource="{Binding Images}" >
+                        <ListView.View>
+                            <GridView >
+                                <GridView.Columns>
+                                    <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                                    <GridViewColumn Header="Source">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Image Width="100" Height="100" Source="{Binding ImageSource}"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+
+                                </GridView.Columns>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+    </StackPanel>
+</Window>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<albums>
+  <album>
+    <name>Pandas</name>
+    <images>
+      <image>
+        <title>Crying</title>
+        <imagesource>..\..\Images\panda1.jpg</imagesource>
+      </image>
+      <image>
+        <title>Relaxed</title>
+        <imagesource>..\..\Images\panda2.jpg</imagesource>
+      </image>
+      <image>
+        <title>Scared</title>
+        <imagesource>..\..\Images\panda3.jpg</imagesource>
+      </image>
+      <image>
+        <title>Playing</title>
+        <imagesource>..\..\Images\panda4.jpg</imagesource>
+      </image>
+      <image>
+        <title>Sitting</title>
+        <imagesource>..\..\Images\panda5.jpg</imagesource>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>Shar pei dogs</name>
+    <images>
+      <image>
+        <title>Just looking around</title>
+        <imagesource>..\..\Images\dog1.jpg</imagesource>
+      </image>
+      <image>
+        <title>Sleepy</title>
+        <imagesource>..\..\Images\dog2.jpg</imagesource>
+      </image>
+      <image>
+        <title>Don't bother me</title>
+        <imagesource>..\..\Images\dog3.jpg</imagesource>
+      </image>
+      <image>
+        <title>I love you</title>
+        <imagesource>..\..\Images\dog4.jpg</imagesource>
+      </image>
+      <image>
+        <title>Friends</title>
+        <imagesource>..\..\Images\dog5.jpg</imagesource>
+      </image>
+    <image>
+        <title>Just Cute</title>
+        <imagesource>..\..\Images\dog6.jpg</imagesource>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>Funny animals</name>
+    <images>
+      <image>
+        <title>Monkey smile</title>
+        <imagesource>..\..\Images\fun1.jpg</imagesource>
+      </image>
+      <image>
+        <title>Meditation</title>
+        <imagesource>..\..\Images\fun2.jpg</imagesource>
+      </image>
+      <image>
+        <title>Relaxation</title>
+        <imagesource>..\..\Images\fun3.jpg</imagesource>
+      </image>
+      <image>
+        <title>Don't move!</title>
+        <imagesource>..\..\Images\fun4.jpg</imagesource>
+      </image>
+      <image>
+        <title>Uau!</title>
+        <imagesource>..\..\Images\fun5.jpg</imagesource>
+      </image>
+    </images>
+    
+  </album>
+
+</albums>
